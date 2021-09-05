@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.2/css/all.min.css"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Where to start</title>
+    </head>
+    <body>
+
+      <nav class="navbar">
+        <div class="container">
+      
+          <div class="navbar-header">
+            <button class="navbar-toggler" data-toggle="open-navbar1">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+            <a href="#">
+              <h4>Begineers<span>Hub</span></h4>
+            </a>
+          </div>
+
+          <div class="navbar-menu" id="open-navbar1">
+            <ul class="navbar-nav">
+              <li class="active"><a href="#">Home</a></li>
+              <li class="navbar-dropdown">
+                <a href="#"">
+                  Categories <i class="fa fa-angle-down"></i>
+                </a>
+              <li><a href="#">About</a></li>
+              <li><a href="newsletter.html" target="_blank">Newsletter</a></li>
+              <li><a href="https://github.com/Suraj7879" target="_blank">Contribute</a></li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+        <div class="container_body">
+            <h1>Get started</h1>
+            <div class="flex">
+                <form autocomplete="off" class="flex" id="submit">
+                    <input
+                        type="text"
+                        id="search"
+                        placeholder="What you have decided to learn"
+                        list="skills"
+                    />
+                    <datalist id="skills">
+                      <option value="Basic Computer Science"/>
+                      <option value="Web Development"/>
+                      <option value="Data Structures and Algorithms(DSA)" />
+                      <option value="Data Science" />
+                      <option value="Machine Learning"/>
+                      <option value="Blockchain" />
+                      <option value="Web3.0" />
+                      <option value="How to start a startup" />
+                      <option value="MBA"/>
+                    </datalist>
+                    <button id="search-btn" type="submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+
+            <div class="spac"></div>
+            <div id="resources"></div>   
+        <script src="script.js"></script>
+    </body>
+</html>
