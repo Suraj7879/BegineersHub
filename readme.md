@@ -36,6 +36,6 @@ https://begineershub.netlify.app
 https://drive.google.com/file/d/1OQQFVb4GL4ZeDWzz7r_2C6Hl3vTIGDJo/view?usp=sharing
 ## Screenshots
 
-![screenshot1](images/screenshot1.jpg?raw=true "First Look")
-![screenshot2](images/screenshot2.jpg?raw=true "Search Dropdown")
-![screenshot3](images/screenshot3.jpg?raw=true "After search")
+![](images/screenshot1.jpg)
+![](images/screenshot2.jpg)
+![](images/screenshot3.jpg)
